@@ -412,6 +412,7 @@ header nav .menu a:hover{
 }
 .news .latest iframe{
     height: 314px;
+    width: 40%;
 }
 @media(max-width: 667px ){
     .news{
@@ -433,13 +434,16 @@ header nav .menu a:hover{
     }
     .news .latest iframe{
         height: 160px;
+        width: fit-content;
     }
 }
 @media(max-width: 992px ){
     .news .latest{
         display: flex;
         flex-direction: column;
-        
+    }
+    .news .latest iframe{
+        width: fit-content;
     }
 
 }
