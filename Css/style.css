@@ -252,6 +252,7 @@ header nav .menu a:hover{
 }
 #about figure{
     position: relative;
+    
 }
 #about figure img{
     border-top-left-radius: 25px;
@@ -305,9 +306,10 @@ header nav .menu a:hover{
     -o-transition: 0.4s;
 }
 #about figure:hover::before{
-    /* background-color: #d9d9d96b; */
     background-color: #cccccc5b;
     clip-path: circle(100% at 50% 50%);
+    border-top-left-radius: 25px;
+    border-top-right-radius: 25px;
 }
 
 /* End About */
